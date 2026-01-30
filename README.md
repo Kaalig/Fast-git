@@ -39,5 +39,6 @@ source ~/.bashrc
 ```bash
 echo 'alias fast="/c/path/to/fast_git/fast_git.sh"' >> ~/.bashrc
 source ~/.bashrc
+# The name of the command will be 'fast' from now on
 ```
 
