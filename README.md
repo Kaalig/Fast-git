@@ -8,13 +8,6 @@ A simple bash script to automate git workflow: check status, add files, commit, 
 4. Prompt for commit message (default message if empty)
 5. Commit and push to remote
 
-## Installation
-```bash
-git clone https://github.com/yourusername/git-Fast-git.git
-cd git-fast-git
-chmod +x fast-git.sh
-./fast-git.sh
-```
 ---
 ## Installation (One-time setup)
 
@@ -36,6 +29,20 @@ Add this line (replace with your actual path):
 function fast { & "C:\path\to\git-quick-push\fast_git.bat" }
 ```
 Restart PowerShell.
+If your system doesn't allow it, do these steps to add the folder's PATH and make it work :
+  1. Copy the PATH of where you put your folder
+  2. Press Windows + R
+  3. Type **sysdm.cpl**
+  4. Tab "Advanced"
+  5. Press button "Environment Variables"
+  6. Edit your PATH in section "User variables"
+  7. Double-click on Path
+  8. Click "New"
+  9. Copypaste your PATH and say Ok
+  10. Restart the terminal
+
+ **You will be able to use it after that by simply using the command **fast_git.bat** . Script will commit the project your're working on right now**.
+
 
 ### Git Bash / Linux / Mac:
 ```bash
