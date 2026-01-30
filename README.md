@@ -4,8 +4,8 @@ A simple bash script to automate git workflow: check status, add files, commit, 
 **The script will** :
 1. Check for changes
 2. Display modified files
-3. Add all changes
-4. Prompt for commit message (uses default if empty)
+3. Add ALL changes (don't forget to check your .gitignore beforehand)
+4. Prompt for commit message (default message if empty)
 5. Commit and push to remote
 
 ## Installation
@@ -24,7 +24,7 @@ git clone https://github.com/yourusername/git-quick-push.git
 cd git-quick-push
 ```
 
-2. Optional: Create an alias for easy access
+2. Optional: Create an alias for easy access (better productivity if you ask me)
 
 ### Windows PowerShell:
 ```powershell
