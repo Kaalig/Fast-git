@@ -18,13 +18,14 @@ chmod +x fast-git.sh
 ---
 ## Installation (One-time setup)
 
-1. Clone this repository anywhere on your computer:
+**1. Clone this repository anywhere on your computer**:
 ```bash
-git clone https://github.com/yourusername/git-quick-push.git
-cd git-quick-push
+git clone https://github.com/yourusername/git-Fast-git.git
+cd git-fast_git
 ```
 
-2. Optional: Create an alias for easy access (better productivity if you ask me)
+
+**2. (Optional) Create an alias for easy access**:
 
 ### Windows PowerShell:
 ```powershell
