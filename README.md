@@ -26,8 +26,8 @@ cd fast_git
 1. Press Windows + R, type `sysdm.cpl`
 2. Advanced tab → Environment Variables
 3. Under "User variables", double-click "Path"
-4. Click "New" and add the full path to this folder
-5. OK everything and restart your terminal
+4. Click "New" and add the full path of the folder
+5. Restart terminal
 
 **Linux/Mac:**
 ```bash
