@@ -48,7 +48,7 @@ If your system doesn't allow it, do these steps to add the folder's PATH and mak
 ```bash
 nano ~/.bashrc
 ```
-Add this line:
+Add your alias (can be whatever besides *fast*):
 ```bash
 alias fast='/path/to/git-quick-push/fast_git.sh'
 ```
